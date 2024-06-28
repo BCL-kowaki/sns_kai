@@ -1,0 +1,177 @@
+#wrapper{
+    padding: 40px 0;
+}
+
+/* header
+================================*/
+
+.header{
+    padding: 30px 0;
+}
+.header div{
+    text-align: center;
+}
+.header div.img img{
+    width: 250px;
+    margin: auto;
+}
+.header div.text{
+    padding: 30px 0;
+    width: 375px;
+    margin: auto;
+}
+.box {
+    max-width: 640px;
+    width: 640px;
+    margin: 5px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #bbb;
+    background: #fff;
+    }
+ .box > .inner {
+        width: 90%;
+        margin: auto;
+        padding: 20px 0;
+ }
+ .box > .inner > .profiles{
+    padding: 20px 0;
+
+ }
+ .box > .inner > .profiles > .profilesimg{
+    width: 200px;
+    margin: auto;
+    padding: 0 0 40px 0;
+ }
+ .box > .inner > .profiles > .profilesimg img{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #eee;
+ }
+form {
+    text-align: left;
+}
+
+form > dl.profilesimg{
+    display: block!important;
+}
+form > dl.profilesimg dd{
+}
+form > dl.profilesimg dd input{
+    display: block!important;
+    font-size: 12px;
+}
+
+form dl, .profiles dl{
+    display: flex;
+    justify-content: flex-start;
+}
+
+form dl dt, .profiles dl dt{
+    width: 30%;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+form dl dd, .profiles dl dd{
+    width: 70%;
+}
+.profiles dl dd{
+    padding: 10px 0;
+}
+
+form dl dd input, .profiles dl dd input{
+    border: 0px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+input[type="submit"] {
+    padding: 5px 20px;
+    background: #C40F2A;
+    color: white;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.logout{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.logout a{
+    color: #1DA1F2;
+}
+
+.timeline{
+    width: 100%;
+}
+.timeline a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 0;
+    color: #fff;
+    background: #42b72a;
+    box-sizing: border-box;
+}
+
+.timelineUser{
+
+}
+
+.timelineUser .box {
+    max-width: 640px;
+    width: 640px;
+    margin: 5px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #bbb;
+    background: #fff;
+    }
+.timelineUser .box > .innner {
+        width: 90%;
+        margin: auto;
+        padding: 20px 0;
+ }
+
+ .timelineUser .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+.timelineUser .post dl{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0 20px 0;
+}
+.timelineUser .post dl dt{
+    margin-right: 10px;
+}
+.timelineUser .post dl dt > img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin-right: 10px;
+}
+
+
+.timelineUser .post dl dd{
+}
+.timelineUser .post dl dd li.timestamp {
+    font-size: 0.8em;
+    color: #555;
+    text-align: left;
+}
+.timelineUser .post .postarea{
+    padding: 20px 0;
+}

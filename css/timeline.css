@@ -1,0 +1,164 @@
+#wrapper{
+    padding: 40px 0;
+}
+
+/* header
+================================*/
+
+.header{
+    padding: 30px 0;
+}
+.header div{
+    text-align: center;
+}
+.header div.img img{
+    width: 250px;
+    margin: auto;
+}
+.header div.text{
+    padding: 30px 0;
+    width: 375px;
+    margin: auto;
+}
+
+
+
+.timelinebox{
+    max-width: 640px;
+    width: 640px;
+    margin: 5px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #bbb;
+    background: #fff;    
+}
+.timelinebox > .inner {
+       width: 95%;
+       margin: auto;
+       padding: 20px 0;
+}
+.timelinebox > .inner dl dd .flex{
+    display: flex;
+    align-items: flex-start;
+}
+.timelinebox > .inner dl dd .flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.timelinebox > .inner dl dd .flex .postimg{
+    margin-right: 10px;
+    width: 40px;
+}
+.timelinebox > .inner dl dd .flex .postimg img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+
+
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+form dl{}
+
+
+form dl dd{}
+
+form dl dd ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+form dl dd ul li{}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background: #f2f2f2;
+    border: 0;
+
+}
+
+form dl{}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* .timeline
+=============================*/
+
+.timeline {
+   /*  width: 80%;
+    margin: 0 auto; */
+}
+
+
+.box {
+    max-width: 640px;
+    width: 640px;
+    margin: 5px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #bbb;
+    background: #fff;
+    }
+ .box > .innner {
+        width: 90%;
+        margin: auto;
+        padding: 20px 0;
+ }
+
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+.post dl{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0 20px 0;
+}
+.post dl dt{
+    margin-right: 10px;
+}
+.post dl dt{
+    width: 50px;
+    height: 50px;
+    }
+
+    .post dl dt img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 1px solid #eee;
+        }    
+
+
+.post dl dd{
+}
+.post dl dd li.timestamp {
+    font-size: 0.8em;
+    color: #555;
+    text-align: left;
+}
+.post .postarea{
+    padding: 20px 0;
+}
+

@@ -1,0 +1,135 @@
+#wrapper{
+    padding: 40px 0;
+}
+
+/* header
+================================*/
+
+.header{
+
+}
+.header div{
+    text-align: center;
+}
+.header div.img img{
+    width: 250px;
+    margin: auto;
+}
+.header div.text{
+    padding: 30px 0;
+    width: 375px;
+    margin: auto;
+}
+.box {
+max-width: 375px;
+width: 375px;
+margin: 20px auto;
+border-radius: 5px;
+box-shadow: 0 0 10px #bbb;
+background: #fff;
+}
+.box > .innner {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* form
+============================*/
+
+form{}
+form dl{}
+form dl dd{
+    margin: 10px 0;
+}
+form dl dd input{
+    width: 100%;
+    border-radius: 5px;
+    background: #fff!important;
+    border: 1px solid #dddfe2;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+form dl dd ul{
+}
+form dl dd ul li{
+    margin-bottom: 10px;
+}
+form dl dd input[id="zipcode"]{
+    width: 50%;
+    border-radius: 5px;
+    background: #fff!important;
+    border: 1px solid #dddfe2;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+button[id="search"]{
+    width: 47%;
+    border-radius: 5px;
+    background: #e2e2e2;
+    border: 1px solid #dddfe2;
+    font-size: 16px;
+    padding: 8px 0;
+    color: #333;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+input[id="profile_img"] {
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    width: 80%;
+    padding: 1em 0.5em;
+    margin-inline: auto;
+    color: #333;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    border: 0;
+  }
+
+button{
+    width: 100%;
+    border-radius: 5px;
+    background: #C40F2A;
+    border: 1px solid #dddfe2;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #fff;
+}
+.reset{
+    text-align: center;
+    margin: 20px 0;
+}
+.reset a {
+    font-size: 14px;
+    color: #0866ff;
+}
+
+.regist{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.regist a{
+    border-radius: 5px;
+    margin: auto;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #fff;
+    background: #42b72a;
+    box-sizing: border-box;
+}
+
+button[id="regist"]{
+    border-radius: 5px;
+    margin: auto;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #fff;
+    background: #42b72a;
+    box-sizing: border-box;
+}
